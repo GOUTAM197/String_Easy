@@ -1,0 +1,16 @@
+#include<bits/stdc++>
+using namespace std;
+class pangram{
+public:
+bool presence[26] = {false}
+   for(int i=0; i<s.length(); i++) 
+ // ASCII Values ---we can direct iterate through the string by running a loop
+int[] idx = s[i] - 'a';     
+presence{idx} =  true;
+}//Iterating loop to determine letter //a-z
+for(int i=0; i<26; i++)
+     if(!presence[i])
+             return false;
+    return true;
+   }
+}                 
